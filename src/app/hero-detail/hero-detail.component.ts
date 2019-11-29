@@ -11,7 +11,7 @@ export class HeroDetailComponent implements OnInit {
   @Input() hero: Hero;
 
   constructor() {
-  console.log('constructed hero detail')
+  console.log('constructed hero detail');
   }
 
   ngOnInit() {
